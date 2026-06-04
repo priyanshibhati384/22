@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assign.css">
+    <link rel="stylesheet" href="https://cloudflare.com" integrity="sha512-Avb2QiuDEEvB4bZJYdgh2Kelto3OmXigfysp774O3me4c80v5lqToExUPOnjOPWZf9M8b75EIm6Fk74cQoKy9w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    background-color: #E1E5EA;
+}
+.nav{
+    height: 70px;
+    width: 97vw;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+button{
+    background-color: #126FFC;
+    border: none;
+    padding: 15px;
+    margin-right: 20px;
+    border-radius: 20px;
+    color: #fff;
+}
+.hero-item{
+    height: 550px;
+    width: 97vw;
+    background-color: lightblue;
+    margin-left: 20px;
+    margin-top: 2px;
+    border-radius: 30px;
+    /* background-image: https://eos.org/wp-content/uploads/2026/01/ocean-haze.jpg; */
+    background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/f1/e8/4c/photo0jpg.jpg?w=900&h=500&s=1");
+    background-repeat: no-repeat;
+     background-position: center bottom; 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+.search-container {
+    display: flex;
+    width: 500px;
+    margin: 50px auto; /* Centers the search bar on the page */
+    font-family: Arial, sans-serif;
+}
+
+.search-input {
+    flex: 1;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-right: none; /* Removes border between input and button */
+    border-radius: 4px 0 0 4px; /* Rounds only the left corners */
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.search-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: 2px solid #007bff;
+    border-radius: 0 4px 4px 0; /* Rounds only the right corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.foot{
+    width: 500px;
+    background-color: #a5d8ff67;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7px;
+}
+.footer{
+    display: flex;
+    gap: 90px;
+    padding: 40px;
+    margin-left: 100px;
+}
+p{
+    margin-bottom: 7px;
+}
+    </style>
+
+</head>
+
+<body>
+    <div class="main-cont">
+        <div class="nav">
+            <h2 class="logo">LOGO</h2>
+            <button>Sign Up</button>
+        </div>
+
+        <div class="hero">
+            <div class="hero-item">
+                <p>Generate more leads with a <br> professional landing page!</p>
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="Search...">
+                    <button class="search-button">Search</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="one foot">
+                <h3>Fully Responsive</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim necessitatibus, eum voluptatum expedita nam iusto.</p>
+            </div>
+            <div class="two foot">
+                <h3>Boootstrap R</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aperiam maxime quo vero, exercitationem magni placeat cumque!.</p>
+            </div>
+
+            <div class="three foot">
+                <h3>Easy To Use</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque officia minima aspernatur. Rem ipsa aperiam velit.</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
